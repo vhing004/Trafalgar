@@ -1,0 +1,20 @@
+.header {
+  padding-top: 57px;
+  &-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+  }
+  &-item {
+    list-style: none;
+    color: $color_desc;
+    font-size: 18px;
+    font-weight: 400;
+    &:hover{
+        color: $color_dark;
+    }
+  }
+}
+
+

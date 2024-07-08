@@ -1,11 +1,23 @@
 html{
     font-family: "Mulish", sans-serif;
 }
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+button{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
 .title{
     color: $color_dark;
     font-weight: 700;
 }
 .desc{
     color: $color_desc;
-    font-weight: 300;  
+    font-weight: 300; 
+}
+.container{
+    margin: 0px 170px;
 }

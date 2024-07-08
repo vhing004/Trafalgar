@@ -2,10 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
 
 html {
   font-family: "Mulish", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
 }
 
 .title {
@@ -16,6 +28,64 @@ html {
 .desc {
   color: #7d7987;
   font-weight: 300;
+}
+
+.container {
+  margin: 0px 170px;
+}
+
+.header {
+  padding-top: 57px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.header-item {
+  list-style: none;
+  color: #7d7987;
+  font-size: 18px;
+  font-weight: 400;
+}
+.header-item:hover {
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 127px;
+  justify-content: space-between;
+  margin-top: 84px;
+}
+.hero-content {
+  max-width: 445px;
+  width: 100%;
+}
+.hero-tilte {
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+.hero-desc {
+  font-size: 21px;
+  line-height: 32px;
+  margin-bottom: 45px;
+}
+.hero-btn {
+  padding: 0px 40px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #458ff6;
+  color: #fff;
+  border-radius: 55px;
+  font-size: 18px;
+}
+.hero-img {
+  max-width: 693px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
